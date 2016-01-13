@@ -4,6 +4,14 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="marcos" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEBp8M97H9IO6S2iDUcWqgfAwDQYJKoZIhvcNAQEBBQAEggEAo4avqM5vCw4AmQao+d8PT05K/FeJ5g9UkiyQTsjBkUrYfOnXDBcw6IqOwI9VzDTp3/2yTztH33wayHppPmBXZFDkypihOenMOjVgw+LMKjZ6rLbIonb+HOn0QZpDyBdPBv96pnErgBUfzmTTkzL0oyGji/dQvvcDv0s9CS8u8E1f2sS5UgcUsQG7FzZV6Pa9J77KcdqapRK0ip9MnW9D2fFP0KFOm+i9uN12RYLdEeAmWprRaqYecc2W/lIyptOaYlfv+lX8QdTBXEwI0d++w6+eNFqBRNT9SC1oUkT2RlQLgjZmVY2SYZSG9bMQ7oCzzSy8PdTgtc3Q1KTPVi3ByzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECNm9WS+XruWUgBCLCwCKSdZRSKbo29QtuYuJ" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2099-01-13T23:59:59.0000000-02:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
     </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="69F6D805F3A04D6AA98C407FEB57FFF00564BBAE" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>

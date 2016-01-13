@@ -47,12 +47,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Profiles" />
     <Folder Include="WebContent\" />
     <Folder Include="WorkerContent\" />
   </ItemGroup>
   <ItemGroup>
     <DiagnosticsConfiguration Include="WebContent\diagnostics.wadcfgx" />
     <DiagnosticsConfiguration Include="WorkerContent\diagnostics.wadcfgx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishProfile Include="Profiles\oikawa-demoStaging.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
