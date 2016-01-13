@@ -26,5 +26,17 @@ namespace DemoWebSite01._1.Controllers
 
             return View();
         }
+
+        public ActionResult SimularErro()
+        {
+            ViewBag.Message = "Erro";
+            int zero = 0;
+            int dividendo = 100;
+
+            float resultado = dividendo / zero;
+             
+           
+            return View();
+        }
     }
 }
