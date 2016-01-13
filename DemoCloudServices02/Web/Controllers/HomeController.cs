@@ -16,6 +16,9 @@ namespace Web.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            int zero = 0;
+            int dividendo = 100;
+            float resultado = dividendo / zero;
 
             return View();
         }
